@@ -1,0 +1,8 @@
+date_filters: 
+    time_from: 01012019 # DDMMYYYY format, I.e. 24102019, for 24 October 2019
+    time_to: 01122020
+
+debug: true # Primarily for checkout output cactegories. 
+            # Will generate a output.csv file
+
+hello: 'world'

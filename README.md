@@ -17,9 +17,16 @@ cd fianace_tracker/
 chmod +x finance.py
 python3 finance.py
 ```
+
+# For further help use the -h or -help flag
+python3 finance.py -h
+
 # Notes
 finance.ipynb is not updated to finance.py
 
 # TODO
 1. Code cant handle change in year well
 2. Figures can only be shown one at a time
+3. Wrap all the functions into a class that is called selectively by finance.ipynb or main.ipynb
+
+Tryout

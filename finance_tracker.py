@@ -32,11 +32,10 @@ class Finance_Tracker:
         parser = argparse.ArgumentParser(description='''
         Program for finance tracking. 
 
-        Note to input a csv file in the way written in the example.csv.
+        Note to input a csv file in the format written in the example.csv.
         ''')
-        parser.add_argument('input.csv', help='The name of the csv file you want to process. For example: example.csv')
-        parser.add_argument('debug', help='Produces an output.csv file for troubleshooting categorisation')
-        parser.add_argument('output.csv', help='Name of output csv file')
+        parser.add_argument('-d', help='Produces an output.csv file for troubleshooting categorisation')
+        parser.add_argument('input.csv', help='Full path to the csv file you want to process. For example: example.csv')
         
         args = parser.parse_args()
 

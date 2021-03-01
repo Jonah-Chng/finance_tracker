@@ -28,5 +28,6 @@ finance.ipynb is not updated to finance.py
 1. Code cant handle change in year well
 2. Figures can only be shown one at a time
 3. Wrap all the functions into a class that is called selectively by finance.ipynb or main.ipynb
+4. Duplicate data under "thomson road" 
 
 Tryout
